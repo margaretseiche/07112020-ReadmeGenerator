@@ -1,36 +1,36 @@
-                    # ReadMe Generator
+# ReadMe Generator
 
-                    [![1][contributors-shield]]
-                    [![ISC][license-shield]]
+[![1][contributors-shield]]
+[![ISC][license-shield]]
 
-                    ## Table of Contents
+## Table of Contents
                     
-                        * [Description](#Description)
-                        * [Installation](#Installation)
-                        * [Usage](#Usage)
-                        * [Contributors](#Contributors)
-                        * [Tests](#Tests)
-                        * [Github](#Github)
-                        * [Email](#Email)
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributors](#Contributors)
+* [Tests](#Tests)
+* [Github](#Github)
+* [Email](#Email)
 
-                    ## Description
-                    Create a command line interface for developers to make ReadMe files
+## Description
+Create a command line interface for developers to make ReadMe files
 
-                    ## Installation
-                    npm i
+## Installation
+npm i
 
-                    ## Usage
-                    node index.js
+## Usage
+node index.js
                     
-                    ## Contributors
-                    Margaret Seiche
+## Contributors
+Margaret Seiche
                     
-                    ## Tests
-                    none
+## Tests
+none
 
-                    ## Github Profile
-                    margaretseiche
+## Github Profile
+margaretseiche
                     
-                    ## Questions? Email to     
-                    margaretseiche@hotmail.com
+## Questions? Email to     
+margaretseiche@hotmail.com
             
