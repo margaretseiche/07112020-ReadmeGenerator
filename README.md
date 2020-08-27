@@ -5,4 +5,4 @@ This will allow developers to include relevant project information in each of th
 
 After gathering the developer's information in Inquirer, a Javascript file called 'generateMarkdown.js' applies the data and formats it in Markdown language.  This module is exported and called by the file system to 'writeToFile', which saves the ReadMe file.
 
-You can see a generated ReadMe file and a demo video in the 'Develop' folder.
+You can see a generated ReadMe file; the demo is uploaded to Youtube at https://youtu.be/C4KLrUpt-M8.
