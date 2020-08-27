@@ -3,11 +3,11 @@ function generateMarkdown(data) {
 <!--THIS TEXT WILL NOT APPEAR IN BROWSER WHEN README IS DISPLAYED.  
 This file was generated when the user answered questions in the CLI (Command Line Interface).-->
                                    
-#${data.project}
+<h1 align="center">${data.project}</h1>
 
 <!-- PROJECT BADGES -->
-[![${data.contributors}][contributors-shield]]
-[![${data.license}][license-shield]]
+[![(https://img.shields.io/badge/Number%20of%20Contributors-${data.contributors}-blue)]]
+[![(https://img.shields.io/badge/License-${data.license}-red)]]
 
 ## Table of Contents
 * [Description](#Description)
