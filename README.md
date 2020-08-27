@@ -2,7 +2,7 @@
                     This file was generated when the user answered questions in the CLI (Command Line Interface).-->
                 
                     
-                    <h2 align="center">ReadMe Generator<h2>
+                    # ReadMe Generator
 
                     <!-- PROJECT BADGES -->
                     [![1][contributors-shield]]
