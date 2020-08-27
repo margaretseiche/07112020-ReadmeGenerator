@@ -6,8 +6,8 @@ This file was generated when the user answered questions in the CLI (Command Lin
 <h1 align="center">${data.project}</h1>
 
 <!-- PROJECT BADGES -->
-[![(https://img.shields.io/badge/Number%20of%20Contributors-${data.contributors}-blue)]]
-[![(https://img.shields.io/badge/License-${data.license}-red)]]
+![](https://img.shields.io/badge/Number%20of%20Contributors-${data.contributors}-blue)
+![](https://img.shields.io/badge/License-${data.license}-red)
 
 ## Table of Contents
 * [Description](#Description)
