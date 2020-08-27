@@ -1,69 +1,84 @@
 const inquirer = require("inquirer");
+const axios = require("axios");
 const fs = require("fs");
-//const generateMarkdown = require("generateMarkdown.js");
+const path = require("path");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 const questions = [
-    "Project title",
-    "Description",
-    "Table of Contents",
-    "Installation",
-    "Usage",
-    "License",
-    "Contributors",
-    "Tests",
-    "Questions",
-    "User Github name",
-    "User GitHub profile picture (url link)",
-    "User GitHub email"
-]
+        {
+            type: "input",
+            name: "project",
+            message: "Project title:"
+        },
+        {
+            type: "input",
+            name: "description",
+            message: "Project Description:"
+        },
+        {
+            type: "input",
+            name: "installation",
+            message: "Steps for Installation:"
+        },
+        {
+            type: "input",
+            name: "usage",
+            message: "Steps for Usage:"
+        },
+        {
+            type: "input",
+            name: "license",
+            message: "License:"
+        },
+        {
+            type: "input",
+            name: "contributors",
+            message: "Number of Contributors:"
+        },
+        {
+            type: "input",
+            name: "contributornames",
+            message: "Contributors' Names:"
+        },
+        {
+            type: "input",
+            name: "tests",
+            message: "Tests:"
+        },
+        {
+            type: "input",
+            name: "github",
+            message: "Github username:"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Email:"
+        }
+];
 
-function init() {
-    for (let i = 0; i < questions.length; i++) {
-        inquirer.prompt ([    
-            {
-                type: "input",
-                name: questions[i],
-                message: `${questions[i]}:`
-            }
-        ]);
-    // ]).then(function(data) {
-    //     var filename = data.questions[0].toLowerCase().split(' ').join('') + ".json"; 
-
-        // fs.writeFile(filename,JSON.stringify(data,null,'\t'),function(err) {
-        //     if (err) {
-        //         console.log("Error")
-        //     }
-        //     console.log("Success!");
-        // });
-    }
+function writeToFile(filename, data) {
+    return fs.writeFileSync(path.join(process.cwd(),filename), data)
 }
 
-// function writeToFile(fileName, data) {
-//}
-
-
-//////////////////////////////////////////////////
-
-// function writeFile(filename,data) {
-//     const markdown = generateMarkdown();
-//     fs.writeFile(filename,data);
-// }        
-
-//////////////////////////////////////////////////
-
-
-
-//     }
-//     if (err) {
-//         console.log("Error")
-//     }
-//     console.log("Success!");
-// });
+function init() {
+    console.log("Welcome to the ReadMe Generator!  Fill in a few details about your project.");
+    inquirer.prompt(questions).then(function(data) {   
+        console.log(data);
+        writeToFile("README.md",generateMarkdown(data));
+        });
+}
 
 init();
 
-// writeFile();
-
-
-
-//* At least one badge
+//////////////////////////////////////////////////////
+    // .then(function({github}) {
+    //         const queryUrl = `https://api.github.com/users/${github}/repos?per_page=100`;
+        
+    //         axios
+    //             .get(queryUrl)
+    //             .then(function({reply}){
+    //                 console.log({reply});
+    //                 return {reply};
+    //             })
+    // })
