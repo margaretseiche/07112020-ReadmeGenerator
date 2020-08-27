@@ -1,7 +1,3 @@
-  <!--THIS TEXT WILL NOT APPEAR IN BROWSER WHEN README IS DISPLAYED.  
-                    This file was generated when the user answered questions in the CLI (Command Line Interface).-->
-                
-                    
                     # ReadMe Generator
 
                     <!-- PROJECT BADGES -->
