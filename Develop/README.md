@@ -1,42 +1,40 @@
 
-                <!--THIS TEXT WILL NOT APPEAR IN BROWSER WHEN README IS DISPLAYED.  
-                    This file was generated when the user answered questions in the CLI (Command Line Interface).-->
-                
-                    
-                    <h2 align="center">ReadMe Generator<h2>
+<!--THIS TEXT WILL NOT APPEAR IN BROWSER WHEN README IS DISPLAYED.  
+This file was generated when the user answered questions in the CLI (Command Line Interface).-->
+                                   
+<h2 align="center">ReadMe Generator<h2>
 
-                    <!-- PROJECT BADGES -->
-                    [![1][contributors-shield]]
-                    [![ISC][license-shield]]
+<!-- PROJECT BADGES -->
+[![1][contributors-shield]]
+[![MIT][license-shield]]
 
-                    ## Table of Contents
-                    
-                        * [Description](#Description)
-                        * [Installation](#Installation)
-                        * [Usage](#Usage)
-                        * [Contributors](#Contributors)
-                        * [Tests](#Tests)
-                        * [Github](#Github)
-                        * [Email](#Email)
+## Table of Contents
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributors](#Contributors)
+* [Tests](#Tests)
+* [Github](#Github)
+* [Email](#Email)
 
-                    ## Description
-                    Create a command line interface for developers to make ReadMe files
+## Description
+Create a CLI for developers to make ReadMe files
 
-                    ## Installation
-                    npm i
+## Installation
+npm i
 
-                    ## Usage
-                    node index.js
-                    
-                    ## Contributors
-                    Margaret Seiche
-                    
-                    ## Tests
-                    none
+## Usage
+node index.js
 
-                    ## Github Profile
-                    margaretseiche
-                    
-                    ## Questions? Email to     
-                    margaretseiche@hotmail.com
+## Contributors
+Margaret Seiche
+
+## Tests
+none
+
+## Github Profile
+margaretseiche
+
+## Questions? Email to     
+margaretseiche@hotmail.com
             

@@ -1,45 +1,43 @@
 function generateMarkdown(data) {
   return `
-                <!--THIS TEXT WILL NOT APPEAR IN BROWSER WHEN README IS DISPLAYED.  
-                    This file was generated when the user answered questions in the CLI (Command Line Interface).-->
-                
-                    
-                    <h2 align="center">${data.project}<h2>
+<!--THIS TEXT WILL NOT APPEAR IN BROWSER WHEN README IS DISPLAYED.  
+This file was generated when the user answered questions in the CLI (Command Line Interface).-->
+                                   
+<h2 align="center">${data.project}<h2>
 
-                    <!-- PROJECT BADGES -->
-                    [![${data.contributors}][contributors-shield]]
-                    [![${data.license}][license-shield]]
+<!-- PROJECT BADGES -->
+[![${data.contributors}][contributors-shield]]
+[![${data.license}][license-shield]]
 
-                    ## Table of Contents
-                    
-                        * [Description](#Description)
-                        * [Installation](#Installation)
-                        * [Usage](#Usage)
-                        * [Contributors](#Contributors)
-                        * [Tests](#Tests)
-                        * [Github](#Github)
-                        * [Email](#Email)
+## Table of Contents
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributors](#Contributors)
+* [Tests](#Tests)
+* [Github](#Github)
+* [Email](#Email)
 
-                    ## Description
-                    ${data.description}
+## Description
+${data.description}
 
-                    ## Installation
-                    ${data.installation}
+## Installation
+${data.installation}
 
-                    ## Usage
-                    ${data.usage}
-                    
-                    ## Contributors
-                    ${data.contributornames}
-                    
-                    ## Tests
-                    ${data.tests}
+## Usage
+${data.usage}
 
-                    ## Github Profile
-                    ${data.github}
-                    
-                    ## Questions? Email to     
-                    ${data.email}
+## Contributors
+${data.contributornames}
+
+## Tests
+${data.tests}
+
+## Github Profile
+${data.github}
+
+## Questions? Email to     
+${data.email}
             `
 }
 
