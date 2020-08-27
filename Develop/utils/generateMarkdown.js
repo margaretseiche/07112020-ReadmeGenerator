@@ -3,7 +3,7 @@ function generateMarkdown(data) {
 <!--THIS TEXT WILL NOT APPEAR IN BROWSER WHEN README IS DISPLAYED.  
 This file was generated when the user answered questions in the CLI (Command Line Interface).-->
                                    
-<h2 align="center">${data.project}<h2>
+#${data.project}
 
 <!-- PROJECT BADGES -->
 [![${data.contributors}][contributors-shield]]
