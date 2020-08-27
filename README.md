@@ -1,6 +1,5 @@
                     # ReadMe Generator
 
-                    <!-- PROJECT BADGES -->
                     [![1][contributors-shield]]
                     [![ISC][license-shield]]
 
