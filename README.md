@@ -1,4 +1,4 @@
-# 07112020-ReadmeGenerator
+# Readme Generator
 
 ![tes](/ReadMeDemo.JPG)
 
