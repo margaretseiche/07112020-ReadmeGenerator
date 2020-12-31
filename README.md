@@ -12,6 +12,9 @@ After gathering the developer's information in Inquirer, a Javascript file calle
 
 You can see a generated ReadMe file; the demo is uploaded to Youtube at https://youtu.be/C4KLrUpt-M8.
 
+## Technologies
+Node Command Line Interface, Node Inquirer, Markdown, file system
+
 ## Usage
 node index.js
 
